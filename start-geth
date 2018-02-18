@@ -1,0 +1,1 @@
+geth --testnet --shh --syncmode "light" --ws --wsaddr 0.0.0.0 --wsport 8546 --wsorigins "*" --wsapi admin,db,eth,debug,net,shh,txpool,personal,web3 --rpc --rpcaddr 0.0.0.0 --rpcport 8545 --rpcapi admin,db,eth,debug,net,shh,txpool,personal,web3 --shh.pow 0.001

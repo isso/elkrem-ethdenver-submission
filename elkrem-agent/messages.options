@@ -1,0 +1,29 @@
+# EthereumAddressSubscription.options
+EthereumAddressSubscription.to_address max_size:43
+EthereumAddressSubscription.from_address max_size:43
+EthereumAddressSubscription.hash max_size:67
+
+# EthereumAddressBalance.options
+EthereumAddressBalance.address max_size:43
+
+# EthereumBlock.options
+EthereumBlock.blockHash max_size:67
+
+# WhisperSubscribe.options
+WhisperSubscribe.private_key max_size:67
+WhisperSubscribe.sym_key_password max_size:100
+WhisperSubscribe.topic max_size:11
+WhisperSubscribe.pubkey max_size:133
+
+# ReceivedWhisperMessage.options
+ReceivedWhisperMessage.from max_size:133
+ReceivedWhisperMessage.topic max_size:11
+ReceivedWhisperMessage.payload max_size:512
+
+# TransmittedWhisperMessage.options
+TransmittedWhisperMessage.pub_key max_size:133
+TransmittedWhisperMessage.sym_key_password max_size:100
+TransmittedWhisperMessage.signature_private_key max_size:67
+TransmittedWhisperMessage.payload max_size:512
+TransmittedWhisperMessage.topic max_size:11
+
